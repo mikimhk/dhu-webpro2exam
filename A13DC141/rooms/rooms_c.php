@@ -14,7 +14,4 @@ class RoomsController{
   }
 }
 
-$controller = new RoomsController();
-$controller->index();
-
 ?>

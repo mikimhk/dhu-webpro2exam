@@ -6,7 +6,7 @@
     }
     function index(){
         $rooms = $this->model->getAll();
-        include_once('index.php');
+        include_once('rooms.php');
     }
   }
 ?>
