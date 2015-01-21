@@ -10,11 +10,14 @@
   <p>発言したいルームを選択しなさい</p>
 
   <ul>
-    <li>大学に関する話題</li>
-    <li>友達に関する話題</li>
-    <li>授業に関する話題</li>
-    <li>サークルに関する話題</li>
-    <li>その他</li>
+   <?php 
+      foreach ($rooms as $name) {
+        echo "<li>${name}</li>";
+      }
+      
+    ?>
   </ul>
+
+
 </body>
 </html>
