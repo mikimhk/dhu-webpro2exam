@@ -1,6 +1,10 @@
 <?php
  class MessagesModel{
   private $data_m;
+  private $room_id;
+  function __construct($room_id){
+    $this->room_id = $room_id;
+  }
 
   public function all(){
     try {

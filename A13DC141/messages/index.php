@@ -18,6 +18,7 @@
       
     ?>
   </ul>
+  
   <form action="record.php" method="POST">
     <textarea id="msg"></textarea>
     <br>
